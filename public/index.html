@@ -16,6 +16,7 @@
         <p>Account number: <span class="account-number"></span></p>
         <p>Is active: <span class="client-active"></span></p>
         <button class="ajax-json">Get Client Data with AJAX</button>
+        <button class="fetch-json">Get Client Data with Fetch</button>
     </section>
     
     <section>
@@ -24,7 +25,22 @@
         <button class="ajax-html">Get HTML</button>
     </section>
     
+    <section>
+        <h1>Form send sample</h1>
+        <form class="sample-form">
+            <label>Client name:
+            <input type="text" name="name">
+            </label>
+            <label>Client email:
+            <input type="text" name="email">
+            </label>
+            <input type="submit">
+        </form>
+    </section>
+    
     <script src="index.js"></script>
+    <script src="fetch-json.js"></script>
     <script src="ajax-html.js"></script>
+    <script src="send-form.js"></script>
 </body>
 </html>
